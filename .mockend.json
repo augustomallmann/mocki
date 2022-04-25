@@ -1,7 +1,7 @@
 {
   "Ticket": {
     "title": {
-      "string": {}
+      "loremWords": { "minLength": 5, "maxLength": 20 }
     },
     "statusMessage": {
       "string": [
@@ -12,9 +12,8 @@
         "approved"
       ]
     },
-    "name": {
-      "string": {}
-    },
+    "firstName": { "regexp": "[A-Z][a-z]{5,10}" } },
+    "lastName": { "regexp": "[A-Z][a-z]{5,10}" } },
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
     }
