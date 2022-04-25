@@ -3,5 +3,8 @@
     "title": {
       "string": {}
     }
+  },
+  "Comment": {
+    "body": [ "int" ],
   }
 }
