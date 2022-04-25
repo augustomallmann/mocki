@@ -9,16 +9,16 @@
         "manager-feedback",
         "processing",
         "awaiting feedback",
-        "approved" 
+        "approved"
       ]
     },
     "user": {
       "name": {
-      "string": {}
-    },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
-    },
+        "string": {}
+      },
+      "avatarUrl": {
+        "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
+      }
     }
   }
 }
