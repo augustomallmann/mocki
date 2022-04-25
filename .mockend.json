@@ -12,20 +12,10 @@
         "approved"
       ]
     },
-
-    "author": {
-      "belongsTo": "Author"
-    }
-  },
-  "Author": {
     "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
     "lastName": { "regexp": "[A-Z][a-z]{5,10}" },
-
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
-    },
-    "tickets": {
-      "hasMany": "Ticket"
     }
   }
 }
