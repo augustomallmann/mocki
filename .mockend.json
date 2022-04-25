@@ -6,9 +6,9 @@
     "statusMessage": {
       "string": [
         "new",
-        "manager-feedback",
+        "manager_feedback",
         "processing",
-        "awaiting feedback",
+        "awaiting_feedback",
         "approved"
       ]
     },
