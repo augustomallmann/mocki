@@ -15,7 +15,7 @@
     "firstName": { "regexp": "[A-Z][a-z]{8,13}" },
     "lastName": { "regexp": "[A-Z][a-z]{7,14}" },
     "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
+      "regexp": "https://i\\.pravatar\\.cc/15\0?u=[0-9]{5}"
     }
   }
 }
