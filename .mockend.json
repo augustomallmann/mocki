@@ -1,9 +1,8 @@
 {
   "Ticket": {
     "title": {
-      "loremWords": { "minLength": 10, "maxLength": 20 }
-    },
-    "statusMessage": {
+      "loremWords": { "minLength": 10, "maxLength": 20 },
+      "statusMessage": {
       "string": [
         "new",
         "manager_feedback",
@@ -12,6 +11,8 @@
         "approved"
       ]
     },
+    },
+    
     "firstName": { "regexp": "[A-Z][a-z]{8,13}" },
     "lastName": { "regexp": "[A-Z][a-z]{7,14}" },
     "avatarUrl": {
